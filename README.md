@@ -57,7 +57,7 @@ ActiveModel::Serializer.config.adapter = ActiveModel::Serializer::Adapter::JsonA
 or
 
 ```ruby
-ActiveModel::Serializer.config.adapter = :json_api
+ActiveModel::Serializer.config.adapter = :jsonapi
 ```
 
 You won't need to implement an adapter unless you wish to use a new format or
